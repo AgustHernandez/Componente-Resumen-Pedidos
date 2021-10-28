@@ -1,0 +1,73 @@
+@import "../utilities/mediaQueries";
+@import "../utilities/variables";
+@import "../utilities/button";
+
+
+body {
+    background-color: $paleBlue;
+}
+
+.card {
+    margin: 60px 10px;
+    background-color: white;
+    height: 700px;
+    text-align: center;
+    border-radius: 30px;
+    .heroSection {
+        width: 53.5vh;
+        border-top-right-radius: 30px;
+        border-top-left-radius: 30px;
+    }
+    .textCard {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        .titleCard {
+           font-weight: 900;
+           font-size: 25px;
+        }
+        .pCard {
+            color: $desaturatedBlue;
+            font-weight: 700;
+            line-height: 2;
+            margin: 0px 25px;
+        }
+    }
+    .cardPlan {
+        background-color: $veryPaleBlue;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 25px 20px;
+        border-radius: 19px;
+        height: 100px;
+        .imgCardPlan {
+            
+            flex-grow: 1;
+            margin-left: 15px;
+        }
+        .textDirection {
+            text-align: start;
+            flex-grow: 1;
+            margin-left: 15px;
+            .cardPlan-title {
+                font-weight: 900;
+                font-size: 16px;
+                margin: 0px 0px 5px 0px;
+            }
+            .cardPlan-p {
+                font-weight: 500;
+                font-size: 16px;
+                margin: 0px;
+                color: $desaturatedBlue;
+            }
+        }
+        .cardPlan-link {
+            font-size: 15px;
+            font-weight: 700;
+            margin-right: 15px;
+            flex-grow: 2;
+        }
+    }
+}
