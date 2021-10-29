@@ -27,24 +27,25 @@ body {
   background-color: #e0e8ff; }
   @media screen and (min-width: 1440px) {
     body {
-      background-image: url("/assets/pattern-background-desktop.svg");
-      position: relative; } }
+      background-image: url("/assets/pattern-background-desktop.svg"); } }
+
+.container {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center; }
 
 .card {
-  margin: 60px 20px;
+  margin: 40px 20px;
   background-color: white;
   height: 660px;
   text-align: center;
   border-radius: 30px;
-  box-shadow: 0 12px 30px -2px #7280a7;
-  position: absolute;
-  left: 0%; }
+  box-shadow: 0 12px 30px -2px #7280a7; }
   @media screen and (min-width: 1440px) {
     .card {
       width: 460px;
-      height: 730px;
-      position: absolute;
-      left: 33.5%; } }
+      height: 750px; } }
   .card .heroSection {
     width: 39.5vh;
     border-top-right-radius: 30px;
