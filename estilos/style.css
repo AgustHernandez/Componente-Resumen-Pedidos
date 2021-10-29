@@ -35,7 +35,7 @@ body {
   box-shadow: 0 12px 30px -2px #7280a7; }
   @media screen and (width: 375px) {
     .card .heroSection {
-      width: 39.5vh;
+      width: 335px;
       border-top-right-radius: 30px;
       border-top-left-radius: 30px; } }
   .card .textCard {
