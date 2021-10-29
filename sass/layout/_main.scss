@@ -16,8 +16,11 @@ body {
     border-radius: 30px;
     box-shadow: 0 12px 30px -2px $desaturatedBlue;
     .heroSection {
+        width: 39.5vh;
+        border-top-right-radius: 30px;
+        border-top-left-radius: 30px;
         @include mobile {
-        width: 335px;
+        width: 33vh;
         border-top-right-radius: 30px;
         border-top-left-radius: 30px;
         }
