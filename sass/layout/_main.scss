@@ -80,32 +80,32 @@ body {
         flex-direction: column;
         gap: 20px;
         margin: 25px 20px;
-        .btnPrimary {
-            height: 60px;
-            border-color: transparent;
-            border-radius: 10px;
-            background-color: $brightBlue;
-            color: $veryPaleBlue;
-            font-weight: 700;
-            font-size: 18px;
-            box-shadow: 0 12px 30px -2px $desaturatedBlue;
-            cursor: pointer;
-            &:hover {
-                background-color: $active;
-            }
+    }
+    .btnPrimary {
+        height: 60px;
+        border-color: transparent;
+        border-radius: 10px;
+        background-color: $brightBlue;
+        color: $veryPaleBlue;
+        font-weight: 700;
+        font-size: 18px;
+        box-shadow: 0 12px 30px -2px $desaturatedBlue;
+        cursor: pointer;
+        &:hover {
+            background-color: $active;
         }
-        .btnSecondary {
-            height: 60px;
-            border-color: transparent;
-            border-radius: 10px;
-            background-color: transparent;
-            color: $desaturatedBlue;
-            font-weight: 700;
-            font-size: 18px;
-            cursor: pointer;
-            &:hover {
-                color: black;
-            }
+    }
+    .btnSecondary {
+        height: 60px;
+        border-color: transparent;
+        border-radius: 10px;
+        background-color: transparent;
+        color: $desaturatedBlue;
+        font-weight: 700;
+        font-size: 18px;
+        cursor: pointer;
+        &:hover {
+            color: black;
         }
     }
 }

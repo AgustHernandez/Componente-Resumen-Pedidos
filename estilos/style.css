@@ -87,29 +87,29 @@ body {
     flex-direction: column;
     gap: 20px;
     margin: 25px 20px; }
-    .card .buttons .btnPrimary {
-      height: 60px;
-      border-color: transparent;
-      border-radius: 10px;
-      background-color: #3829e0;
-      color: #f5f7ff;
-      font-weight: 700;
-      font-size: 18px;
-      box-shadow: 0 12px 30px -2px #7280a7;
-      cursor: pointer; }
-      .card .buttons .btnPrimary:hover {
-        background-color: #6359c9; }
-    .card .buttons .btnSecondary {
-      height: 60px;
-      border-color: transparent;
-      border-radius: 10px;
-      background-color: transparent;
-      color: #7280a7;
-      font-weight: 700;
-      font-size: 18px;
-      cursor: pointer; }
-      .card .buttons .btnSecondary:hover {
-        color: black; }
+  .card .btnPrimary {
+    height: 60px;
+    border-color: transparent;
+    border-radius: 10px;
+    background-color: #3829e0;
+    color: #f5f7ff;
+    font-weight: 700;
+    font-size: 18px;
+    box-shadow: 0 12px 30px -2px #7280a7;
+    cursor: pointer; }
+    .card .btnPrimary:hover {
+      background-color: #6359c9; }
+  .card .btnSecondary {
+    height: 60px;
+    border-color: transparent;
+    border-radius: 10px;
+    background-color: transparent;
+    color: #7280a7;
+    font-weight: 700;
+    font-size: 18px;
+    cursor: pointer; }
+    .card .btnSecondary:hover {
+      color: black; }
 
 .attribution {
   font-size: 11px;
