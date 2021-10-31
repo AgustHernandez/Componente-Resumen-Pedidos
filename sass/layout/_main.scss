@@ -12,10 +12,12 @@ body {
 }
 
 .container {
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    @include desktop {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
 }
 .card {
     margin: 60px 20px;
@@ -30,12 +32,11 @@ body {
         height: 750px;
     }
     .heroSection {
-        width: 39.5vh;
+        width: 89.2vw;
         border-top-right-radius: 30px;
         border-top-left-radius: 30px;
         @include desktop {
             width: 460px;
-
         }
     }
     .textCard {
