@@ -122,35 +122,37 @@ body {
             margin: 25px 40px;
         }
     }
-    .btnPrimary {
-        height: 60px;
-        border-color: transparent;
-        border-radius: 10px;
-        background-color: $brightBlue;
-        font-weight: 700;
-        font-size: 18px;
-        box-shadow: 0 12px 30px -2px $desaturatedBlue;
-        &:hover {
-            background-color: $active;
-        }
-        a {
-            text-decoration: none;
-            color: $veryPaleBlue;
+
+    a {
+        text-decoration: none;
+        color: $veryPaleBlue;
+        .btnPrimary {
+            height: 60px;
+            border-color: transparent;
+            border-radius: 10px;
+            background-color: $brightBlue;
+            font-weight: 700;
+            font-size: 18px;
+            box-shadow: 0 12px 30px -2px $desaturatedBlue;
+            &:hover {
+                background-color: $active;
+            }
         }
     }
-    .btnSecondary {
-        height: 60px;
-        border-color: transparent;
-        border-radius: 10px;
-        background-color: transparent;
-        font-weight: 700;
-        font-size: 18px;
-        a {
-            text-decoration: none;
-            color: $desaturatedBlue;
-            &:hover {
-                color: black;
-            }
+    
+    a {
+        text-decoration: none;
+        color: $desaturatedBlue;
+        &:hover {
+            color: black;
+        }
+        .btnSecondary {
+            height: 60px;
+            border-color: transparent;
+            border-radius: 10px;
+            background-color: transparent;
+            font-weight: 700;
+            font-size: 18px;
         }
     }
 }
