@@ -127,31 +127,31 @@ body {
     @media screen and (min-width: 1024px) {
       .card .buttons {
         margin: 25px 40px; } }
-  .card a {
-    text-decoration: none;
-    color: #f5f7ff; }
-    .card a .btnPrimary {
-      height: 60px;
-      border-color: transparent;
-      border-radius: 10px;
-      background-color: #3829e0;
-      font-weight: 700;
-      font-size: 18px;
-      box-shadow: 0 12px 30px -2px #7280a7; }
-      .card a .btnPrimary:hover {
-        background-color: #6359c9; }
-  .card a {
-    text-decoration: none;
-    color: #7280a7; }
-    .card a:hover {
-      color: black; }
-    .card a .btnSecondary {
-      height: 60px;
-      border-color: transparent;
-      border-radius: 10px;
-      background-color: transparent;
-      font-weight: 700;
-      font-size: 18px; }
+  .card .btnPrimary {
+    height: 60px;
+    border-color: transparent;
+    border-radius: 10px;
+    background-color: #3829e0;
+    font-weight: 700;
+    font-size: 18px;
+    box-shadow: 0 12px 30px -2px #7280a7; }
+    .card .btnPrimary:hover {
+      background-color: #6359c9; }
+    .card .btnPrimary a {
+      text-decoration: none;
+      color: #f5f7ff; }
+  .card .btnSecondary {
+    height: 60px;
+    border-color: transparent;
+    border-radius: 10px;
+    background-color: transparent;
+    font-weight: 700;
+    font-size: 18px; }
+    .card .btnSecondary a {
+      text-decoration: none;
+      color: #7280a7; }
+      .card .btnSecondary a:hover {
+        color: black; }
 
 .attribution {
   font-size: 11px;
