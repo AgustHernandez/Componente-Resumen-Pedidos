@@ -23,7 +23,11 @@ Users should be able to:
 
 ### Screenshot
 
+<<<<<<< HEAD
 ![Solution preview for the Order summary card coding challenge](screenshotSolucion.png)
+=======
+(screenshotSolucion.png)
+>>>>>>> 5ab5eebd7c904dabccc8a5e76c49950ccdb5576a
 
 ### Links
 
