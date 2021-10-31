@@ -25,7 +25,7 @@ body {
   background-image: url("/assets/pattern-background-mobile.svg");
   background-repeat: no-repeat;
   background-color: #e0e8ff; }
-  @media screen and (min-width: 1440px) {
+  @media screen and (min-width: 1024px) {
     body {
       background-image: url("/assets/pattern-background-desktop.svg"); } }
 
@@ -42,7 +42,7 @@ body {
   text-align: center;
   border-radius: 30px;
   box-shadow: 0 12px 30px -2px #7280a7; }
-  @media screen and (min-width: 1440px) {
+  @media screen and (min-width: 1024px) {
     .card {
       margin: 110px 20px;
       width: 460px;
@@ -51,7 +51,7 @@ body {
     width: 39.5vh;
     border-top-right-radius: 30px;
     border-top-left-radius: 30px; }
-    @media screen and (min-width: 1440px) {
+    @media screen and (min-width: 1024px) {
       .card .heroSection {
         width: 460px; } }
   .card .textCard {
@@ -59,7 +59,7 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: center; }
-    @media screen and (min-width: 1440px) {
+    @media screen and (min-width: 1024px) {
       .card .textCard {
         margin-top: 15px; } }
     .card .textCard .titleCard {
@@ -70,7 +70,7 @@ body {
       font-weight: 700;
       line-height: 2;
       margin: 0px 25px; }
-      @media screen and (min-width: 1440px) {
+      @media screen and (min-width: 1024px) {
         .card .textCard .pCard {
           margin: 0px 45px; } }
   .card .cardPlan {
@@ -81,7 +81,7 @@ body {
     margin: 25px 20px;
     border-radius: 19px;
     height: 100px; }
-    @media screen and (min-width: 1440px) {
+    @media screen and (min-width: 1024px) {
       .card .cardPlan {
         margin: 25px 40px; } }
     .card .cardPlan .imgCardPlan {
@@ -91,14 +91,14 @@ body {
       text-align: start;
       flex-grow: 1;
       margin-left: 15px; }
-      @media screen and (min-width: 1440px) {
+      @media screen and (min-width: 1024px) {
         .card .cardPlan .textDirection {
           margin-left: 18px; } }
       .card .cardPlan .textDirection .cardPlan-title {
         font-weight: 900;
         font-size: 15px;
         margin: 0px 0px 5px 0px; }
-        @media screen and (min-width: 1440px) {
+        @media screen and (min-width: 1024px) {
           .card .cardPlan .textDirection .cardPlan-title {
             font-size: 17px; } }
       .card .cardPlan .textDirection .cardPlan-p {
@@ -106,7 +106,7 @@ body {
         font-size: 15px;
         margin: 0px;
         color: #7280a7; }
-        @media screen and (min-width: 1440px) {
+        @media screen and (min-width: 1024px) {
           .card .cardPlan .textDirection .cardPlan-p {
             font-size: 17px; } }
     .card .cardPlan .cardPlan-link {
@@ -114,7 +114,7 @@ body {
       font-weight: 700;
       margin-right: 15px;
       flex-grow: 2; }
-      @media screen and (min-width: 1440px) {
+      @media screen and (min-width: 1024px) {
         .card .cardPlan .cardPlan-link {
           margin-right: 20px; } }
       .card .cardPlan .cardPlan-link:hover {
@@ -124,7 +124,7 @@ body {
     flex-direction: column;
     gap: 20px;
     margin: 25px 20px; }
-    @media screen and (min-width: 1440px) {
+    @media screen and (min-width: 1024px) {
       .card .buttons {
         margin: 25px 40px; } }
   .card .btnPrimary {
